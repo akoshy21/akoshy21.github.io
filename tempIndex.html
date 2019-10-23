@@ -10,11 +10,6 @@
     		<!--Navigation bar-->
 				<div id="nav-placeholder">
 				</div>
-				<script>
-				$(function(){
-				  $("#nav-placeholder").load("nav.html");
-				});
-				</script>
 				<!--end of Navigation bar-->
 		</nav>
 		<div class="container">
@@ -27,11 +22,6 @@
 		<!--Navigation bar-->
 		<div id="gal-placeholder">
 		</div>
-		<script>
-		$(function(){
-			$("#gal-placeholder").load("gallery.html");
-		});
-		</script>
 		<!--end of Navigation bar-->
 		<footer>
     		<ul>
@@ -40,5 +30,16 @@
 			</ul>
 		</footer>
 		<script src="/js/jquery-3.4.1.js"></script>
+		<script>
+		$(document).ready(function(e) {
+			$(function(){
+				$("#nav-placeholder").load("nav.html");
+			});
+
+			$(function(){
+				$("#gal-placeholder").load("gallery.html");
+			});
+		});
+		</script>
 	</body>
 </html>

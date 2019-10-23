@@ -1,22 +1,27 @@
-.filter-menu ul li{
-  displayer: inline-block;
-  margin: 0;
-  list-style: none;
-  padding: 10px 15px;
-  border: 1px solid tomato;
-  cursor: pointer;
-  -webkit-transition: all .5s ease time;
-  -ms-transition: all .5s ease time;
-  -moz-transition: all .5s ease time;
-  -o-transition: all .5s ease time;
-  transition: all .5s ease time;
+body{
+  font-family: 'Oswald', sans-serif;
 }
 
-.filter-menu ul li:hover{
-  background: tomato;
-  color: #ffffff;
+.error{
+  text-align: center;
 }
 
-li.active{
-  background: tomato;
+.outer {
+  display: table;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.middle {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.inner {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
 }

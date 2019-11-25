@@ -2,6 +2,10 @@ body{
   font-family: 'Oswald', sans-serif;
 }
 
+h1{
+  font-family:'Oswald', sans-serif;
+}
+
 .error{
   text-align: center;
 }
@@ -29,4 +33,33 @@ body{
 .container
 {
     font-family: 'Oswald', sans-serif;
+}
+
+.grid-item {
+  width: 25%;
+  padding: 10px;
+  margin: 10px;
+  color: white;
+}
+
+.btn {
+  background: white;
+  border-style: double;
+}
+
+.active
+{
+  background: gray;
+}
+
+.art {
+  background: salmon;
+}
+
+.writing {
+  background: tomato;
+}
+
+.games {
+  background: teal;
 }

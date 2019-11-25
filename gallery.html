@@ -1,8 +1,6 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-
     <title>Hello, world!</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -17,13 +15,13 @@
         margin: 10px;
         color: white;
       }
-      .flower {
+      .games {
         background: teal;
       }
-      .bird {
+      .art {
         background: salmon;
       }
-      .fruit {
+      .writing {
         background: tomato;
       }
     </style>
@@ -34,7 +32,7 @@
 
     </div>
 
-    <script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
     $(function(){
       $("#nav-placeholder").load("nav.html");
     });
@@ -45,9 +43,9 @@
       <div class="filter">
         <h1>Filtering</h1>
         <button data-name='*' class="btn btn-info active">All</button>
-        <button data-name=".fruit" class="btn btn-primary">fruit</button>
-        <button data-name=".flower" class="btn btn-danger">flower</button>
-        <button data-name=".bird" class="btn btn-success">bird</button>
+        <button data-name=".games" class="btn btn-primary">game design</button>
+        <button data-name=".writing" class="btn btn-danger">writing</button>
+        <button data-name=".art" class="btn btn-success">graphic design</button>
       </div>
       <div class="sort">
         <h1>sorting</h1>
@@ -56,14 +54,10 @@
         <button data-name='random' class="btn btn-dark">random</button>
       </div>
       <div class="grid">
-        <div class="grid-item flower">Rose</div>
-        <div class="grid-item bird">Parrot</div>
-        <div class="grid-item fruit">Banana</div>
-        <div class="grid-item flower">Tulip</div>
-        <div class="grid-item bird">Sparrow</div>
-        <div class="grid-item flower">Marigold</div>
-        <div class="grid-item fruit">Orange</div>
-        <div class="grid-item bird">Owl</div>
+        <div class="grid-item games">Rose</div>
+        <div class="grid-item art">Parrot</div>
+        <div class="grid-item writing">Banana</div>
+        <div class="grid-item art">Tulip</div>
       </div>
     </div>
 

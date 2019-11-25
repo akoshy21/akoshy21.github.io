@@ -38,15 +38,21 @@ div {
   text-decoration: none;
 }
 
+a:link hover{
+  text-decoration: none;
+}
+
+.spacing a:link hover{
+  text-decoration: none;
+}
+
 #navbar
 {
   background: #B3CA95;
-  height: 190px;
-  width: 110%;
-  margin-top:-10px;
+  height: 180px;
+  width: 100%;
+  margin-top: 0px;
   display: flex;
-  margin-left:-10px;
-  margin-right:-10px;
   position:fixed;
 }
 
@@ -55,14 +61,14 @@ div {
   float: left;
   margin-left:15px;
   margin-right: 10px;
-  margin-top: -10px;
+  margin-top: 0px;
 }
 
 #navbar .text
 {
   margin-top:35px;
-  width:100%;
   text-align: left;
+  width:200%;
 }
 
 #navbar .title
@@ -72,6 +78,10 @@ div {
   -moz-osx-font-smoothing: grayscale;
   font-size: 3em;
   color: #BD454E;
+  text-decoration: none;
+}
+
+#navbar .title a:link hover{
   text-decoration: none;
 }
 
@@ -91,14 +101,24 @@ div {
 
 #navbar .pages
 {
-  margin-top: 10px;
+  margin-top: 8px;
   text-align: left;
   float:left;
 }
 
+#navbar .pages a:hover
+{
+  text-decoration: none;
+}
 
 #navbar .spacing:hover{
 color: #444444;
+}
+
+#spacer
+{
+  display: block;
+  height:200px;
 }
 
 .router-link-active
@@ -132,7 +152,7 @@ color: #444444;
 
 .container
 {
-    font-family: 'Oswald', sans-serif;
+
 }
 
 .grid-item {

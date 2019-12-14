@@ -161,9 +161,25 @@ color: #444444;
   margin-top:0px;
 }
 
+.grid{
+  margin-right:-10px;
+}
+
 .grid-item {
-  width: 25%;
+  width: 24%;
+  height: 200px;
+  margin-right: 9px;
   color: white;
+}
+
+.grid-title{
+  font-family: 'Lemon Milk', Helvetica, Arial, sans-serif;
+  font-size: 15px;
+}
+
+.grid-photo{
+  clip-path: rect(220px, 200px);
+  height:200px;
 }
 
 .btn {

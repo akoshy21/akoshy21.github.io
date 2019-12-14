@@ -152,20 +152,41 @@ color: #444444;
 
 .container
 {
-
+  
 }
 
 .grid-item {
   width: 25%;
-  padding: 10px;
-  margin: 10px;
   color: white;
 }
 
 .btn {
-  background: white;
-  border-style: double;
+ display:inline-block;
+ padding:0.35em 1.2em;
+ border:0.1em solid #FFFFFF;
+ margin:0 0.3em 0.3em 0;
+ border-radius:0.12em;
+ box-sizing: border-box;
+ text-decoration:none;
+ font-family:'Roboto',sans-serif;
+ font-weight:300;
+ color:#FFFFFF;
+ text-align:center;
+ transition: all 0.2s;
 }
+
+.button
+{
+  display:inline-block !important;
+  font-family:'Josefin Sans', sans-serif;
+  padding:0.35em 1.2em;
+  border:0.1em solid #FFFFFF;
+}
+.button:hover
+{
+  background:gray;
+}
+.button:focus {outline:0;}
 
 .active
 {

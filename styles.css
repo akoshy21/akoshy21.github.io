@@ -195,7 +195,9 @@
   }
 
   .grid{
+    height:69vh!important;
     margin-right:0px;
+    overflow-y:scroll;
   }
 
   .grid-item {
@@ -221,53 +223,53 @@
   opacity: 0;
   transition: .5s ease;
   background-color: #BD454E;
-}
+  }
 
-.overlay .text
-{
-  color: white;
-  font-size: 1.2em;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
+  .overlay .text
+  {
+    color: white;
+    font-size: 1.2em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
 
-.wph{
-  background:#FFEB39;
-}
+  .wph{
+    background:#FFEB39;
+  }
 
-.wph .subtext{
+  .wph .subtext{
+      color:black;
+      font-size: 1em;
+      top:65%;
+      left:50%;
+      width:85%
+  }
+
+  .wph img{
+    margin-top:2em;
+    width: 20vw;
+  }
+
+  .scorched{
+    background: #AA9A8F;
+  }
+
+  .scorched img{
+    width: 20vh;
+  }
+
+  .scorched .subtext{
     color:black;
     font-size: 1em;
-    top:65%;
+    top:64%;
     left:50%;
     width:85%
-}
-
-.wph img{
-  margin-top:2em;
-  width: 20vw;
-}
-
-.scorched{
-  background: #AA9A8F;
-}
-
-.scorched img{
-  width: 20vh;
-}
-
-.scorched .subtext{
-  color:black;
-  font-size: 1em;
-  top:64%;
-  left:50%;
-  width:85%
-}
+  }
 
   .grid-title{
     font-family: 'Lemon Milk', Helvetica, Arial, sans-serif;
@@ -335,4 +337,22 @@
   }
 }
 @media all and (max-width: 959px) {
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #B3CA95;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #BD454E;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #8A333A;
 }

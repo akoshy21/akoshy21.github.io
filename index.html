@@ -28,15 +28,13 @@
   </head>
   <body>
     <!-- NAV BAR -->
-    <div id="navbar" style="margin-top:-8px; margin-left:-10px; margin-right-10px;">
-      <h2>
-          <img class="image" src="./assets/logo.png" height ="180px" style="margin-top:-5px;"></img>
-      </h2>
-      <div class="text" style="margin-top:37px;">
-        <a class="title" href="./index.html">
-        Annamaria Koshy</a>
-        <div class="subtitle" style="margin-top:-4px">Game Designer<span style="margin-left:20px"><a href="mailto:annamariakoshy@gmail.com">annamariakoshy@gmail.com</a></span></div>
-        <div class="pages" style="margin-top:12.5px">
+    <div id="navbar">
+      <img class="image" src="./assets/logo.png"></img>
+      <div class="text">
+        <a class="title" href="./index.html">Annamaria Koshy</a>
+        <div class="subtitle">Game Designer <a href="mailto:annamariakoshy@gmail.com" style="margin-left:9em">annamariakoshy@gmail.com</a>
+        </div>
+        <div class="pages">
           <nav>
             <a class="spacing" href="./about.html">ABOUT</a> <a class="spacing" href="./resume.html">RESUME</a>
           </nav>
@@ -47,16 +45,18 @@
     <!-- END OF NAV BAR -->
 
     <div class="container">
+
       <div class="filter">
-        <button data-name='*' class="button btn-info active">ALL</button>
-        <button data-name=".games" class="button btn-primary">GAME DESIGN</button>
-        <button data-name=".writing" class="button btn-danger">WRITING</button>
-        <button data-name=".art" class="button btn-success">GRAPHIC DESIGN</button>
+        <button data-name='*' class="button active">ALL</button><!--
+  --><button data-name=".games" class="button">GAME DESIGN</button><!--
+  --><button data-name=".writing" class="button">WRITING</button><!--
+  --><button data-name=".art" class="button">GRAPHIC DESIGN</button>
       </div>
-      <div id="spacer" style="height:50px"></div>
       <div class="grid">
-        <div class="grid-item games writing"><img src="./assets/battleblock.png" class="grid-photo"></img></div>
-        <div class="grid-item art"><span class="grid-title">Parrot</span><div class="grid-photo"><img src="./assets/photoSM.png" height="120px"></img></div></div>
+        <div class="grid-item art games" style="background:#FFEB39"><!--
+        --><div  class="grid-photo"><img src="./assets/wph.gif" style="position:absolute; bottom:0; right:0;"></img></div><!--
+        --><div class="overlay wph"><img src="./assets/wphlogo.png"></img><div class="text subtext"><br />Watch the bodies stack up in this puzzle platformer where every death is a stepping stone to success.</div></div></div>
+        <div class="grid-item art"><div class="grid-photo"><img src="./assets/photoSM.png"></img></div></div>
         <div class="grid-item writing"><span class="grid-title">Banana</span></div>
         <div class="grid-item art"><span class="grid-title">Tulip</span></div>
       </div>

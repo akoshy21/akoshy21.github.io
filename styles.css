@@ -1,3 +1,33 @@
+@font-face{
+  font-family: 'Lemon Milk';
+  src: url('./assets/fonts/LemonMilk.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Josefin Sans Regular'), local('JosefinSans-Regular'), url(https://fonts.gstatic.com/s/josefinsans/v13/Qw3aZQNVED7rKGKxtqIqX5EUDXx4Vn8sig.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Franklin';
+  src: url('./assets/fonts/FRADM.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+hr{
+  height:1px;
+  border:none;
+  color:#000;
+  background-color:#000;
+}
+
 @media all and (min-width: 960px) {
   body{
     font-family: 'Josefin Sans', sans-serif;
@@ -6,23 +36,7 @@
   }
 
   h1{
-    font-family: 'Josefin Sans', sans-serif;
-  }
-
-  @font-face{
-    font-family: 'Lemon Milk';
-    src: url('./assets/fonts/LemonMilk.otf') format('opentype');
-    font-weight: normal;
-    font-style: normal;
-  }
-
-  @font-face {
-    font-family: 'Josefin Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-    src: local('Josefin Sans Regular'), local('JosefinSans-Regular'), url(https://fonts.gstatic.com/s/josefinsans/v13/Qw3aZQNVED7rKGKxtqIqX5EUDXx4Vn8sig.woff2) format('woff2');
-    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    margin:0;
   }
 
   div {
@@ -32,6 +46,7 @@
   }
 
   .itchFrame{
+    margin:1%;
     background: #B3CA95;
     width: 26em;
     height:11em;
@@ -149,6 +164,8 @@
     width:100%;
     height: 2.25em;
     color:#8A333A;
+    font-family:'Lemon Milk', Helvetica, Arial, sans-serif;
+    font-size:1em;
   }
 
   .filter p{
@@ -255,6 +272,43 @@
     width: 20vw;
   }
 
+  .wphPG{
+    background:black;
+    height:100%;
+    width:100%;
+    text-align: left;
+    color:#FFEB39;
+  }
+
+.wph p{
+  color:#FFEB39;
+  text-align:left;
+}
+
+.wphPG hr{
+  height:0.35em;
+  width:46.5%;
+  background:#FFEB39;
+  float:left;
+}
+
+  .wphH{
+      font-family: 'Franklin';
+      color:#FFEB39;
+      text-align:left;
+      margin:0;
+      padding-top:1%;
+      font-size:2em;
+  }
+
+  .wphPG img{
+    margin-top:1%;
+    margin-left:1%;
+    margin-right:1%;
+    width:50%;
+    float:left;
+  }
+
   .scorched{
     background: #AA9A8F;
   }
@@ -266,7 +320,7 @@
   .scorched .subtext{
     color:black;
     font-size: 1em;
-    top:64%;
+    top:66%;
     left:50%;
     width:85%
   }
@@ -324,16 +378,9 @@
     color:black;
   }
 
-  .art {
-    background: salmon;
-  }
-
-  .writing {
-    background: tomato;
-  }
-
-  .games {
-    background: teal;
+  .pg{
+    height:69vh!important;
+    overflow-y:auto;
   }
 }
 @media all and (max-width: 959px) {
@@ -355,4 +402,16 @@
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #8A333A;
+}
+
+.art {
+  background: salmon;
+}
+
+.writing {
+  background: tomato;
+}
+
+.games {
+  background: teal;
 }

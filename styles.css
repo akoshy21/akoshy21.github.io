@@ -16,7 +16,7 @@
 
 @font-face {
   font-family: 'Franklin';
-  src: url('./assets/fonts/FRADM.ttf') format('truetype');
+  src: url('./assets/fonts/FRADM.TTF') format('truetype');
   font-weight: normal;
   font-style: normal;
 }

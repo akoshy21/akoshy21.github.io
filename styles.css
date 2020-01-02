@@ -23,8 +23,6 @@
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
-@import url('https://fonts.googleapis.com/css?family=Montserrat:900&display=swap');
-
 hr{
   height:1px;
   border:none;
@@ -68,7 +66,7 @@ hr{
     font-family: 'Lemon Milk', Helvetica, Arial, sans-serif;
     -webkit-font-smoothing:antialiased;
     -moz-osx-font-smoothing: grayscale;
-    font-size: 2em;
+    font-size: 1.7em;
     text-decoration: none;
   }
 
@@ -83,7 +81,7 @@ hr{
   #navbar
   {
     background: #B3CA95;
-    height: 25%;
+    height: 9em;
     width: 100%;
     margin-top: 0px;
     display: flex;
@@ -100,7 +98,7 @@ hr{
 
   #navbar .text
   {
-    margin-top:2%;
+    margin-top:0.8em;
     text-align: left;
     width:200%;
   }
@@ -112,7 +110,7 @@ hr{
     -moz-osx-font-smoothing: grayscale;
     font-size: 3em;
     color: #BD454E;
-    margin-top:10%;
+    margin-top:0.8em;
     text-decoration: none;
   }
 
@@ -128,6 +126,7 @@ hr{
     text-align:left;
     position: relative;
     margin-top:-0.5em;
+    margin-left:0em;
   }
 
   #navbar .subtitle a:link{
@@ -142,7 +141,7 @@ hr{
 
   #navbar .pages
   {
-    margin-top: 1.5em;
+    margin-top: 0.5em;
     text-align: left;
   }
 
@@ -158,7 +157,7 @@ hr{
   #spacer
   {
     display: block;
-    height:25vh;
+    height:9em;
   }
 
   .filter
@@ -215,15 +214,60 @@ hr{
     position:relative;
   }
 
-  .grid{
-    height:69vh!important;
+  .pageBox{
+    /* Firefox */
+    height: -moz-calc(100% - 11.25em);
+    /* WebKit */
+    height: -webkit-calc(100% - 11.25em);
+    /* Opera */
+    height: -o-calc(100% - 11.25em);
+    /* Standard */
+    height: calc(100vh - 11.25em);
     margin-right:0px;
     overflow-y:scroll;
+    overflow-x:hidden;
+  }
+
+.year {
+  font-family:'Lemon Milk', Helvetica, Arial, sans-serif;
+  margin-right:0.3em;
+}
+
+  .resumeTable
+  {
+    margin-top:0%;
+    padding-left:10%;
+    padding-right:10%;
+    padding-top:3%;
+    color:black;
+  }
+
+
+  .resumeTable th{
+    font-family:'Lemon Milk', Helvetica, Arial, sans-serif;
+    font-size:1em;
+    vertical-align: top;
+    text-align:right;
+    color:#B3CA95;
+    font-size:3em;
+    padding-right:0.25em;
+    padding-bottom:1em;
+  }
+
+  .resumeTable td{
+    text-align: left;
+    padding:1em;
+    vertical-align: top;
+    line-height: 130%;
+  }
+
+  .grid{
+
   }
 
   .grid-item {
     width: 25%;
-    height: 25vh;
+    height:11em;
     color: white;
     text-align: center;
     overflow: hidden;
@@ -249,7 +293,6 @@ hr{
   .overlay .text
   {
     color: white;
-    font-size: 1.2em;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -266,7 +309,8 @@ hr{
   .wph .subtext{
       color:black;
       font-size: 1em;
-      top:65%;
+	  font-size:1.2vw;
+      top:64%;
       left:50%;
       width:85%
   }
@@ -334,16 +378,36 @@ hr{
   }
 
   .scorched img{
-    width: 20vh;
+    width: 54%;
   }
 
   .scorched .subtext{
     color:black;
     font-size: 1em;
+	font-size: 1.2vw;
     top:66%;
     left:50%;
     width:85%
   }
+	
+	.rise{
+		background:#aba090;
+		
+	}
+	
+	.rise img{
+		margin-top:-1.5em;
+	}
+	
+	  .rise .subtext{
+    color:black;
+    font-size: 1em;
+	font-size: 1.2vw;
+    top:68%;
+    left:50%;
+    width:85%
+  }
+	
 
   .grid-title{
     font-family: 'Lemon Milk', Helvetica, Arial, sans-serif;

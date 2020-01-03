@@ -116,7 +116,7 @@ a:link hover{
 	text-decoration: none;
 }
 
-@media only screen and (max-width: 568px) {
+@media only screen and (max-width: 768px) {
 	-webkit-scrollbar { width: 0 !important }
 	 overflow: -moz-scrollbars-none;
 	-ms-overflow-style: none;

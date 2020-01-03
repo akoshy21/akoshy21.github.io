@@ -330,15 +330,20 @@ hr{
 .wphPG p{
   color:#FFEB39;
   text-align:left;
-  padding-right:1%;
+  padding-right:1.5%;
+  padding-left:1.5%;
 }
 
 .wphPG hr{
   height:0.2em;
-  width:46.5%;
+  width:14em;
   background:#FFEB39;
   float:left;
 }
+	.wphSection{
+		width:57em;
+		margin:0 auto;
+	}
 	
   .wphH{
     font-family: 'Montserrat', sans-serif;
@@ -346,8 +351,7 @@ hr{
       color:#FFEB39;
       text-align:left;
       margin:0;
-      padding-top:1%;
-      padding-left:2%;
+      padding-top:0;
       font-size:1.75em;
   }
 
@@ -358,8 +362,8 @@ hr{
       color:#FFEB39;
       text-align:left;
       margin:0;
-      padding-top:2%;
-      padding-right:2%;
+      padding-top:0.75em;
+      padding-right:2%!important;
       font-size:1.75em;
   }
 
@@ -367,6 +371,13 @@ hr{
 	{
 		float:right;
 		width:48%;
+	}
+	
+	.left
+	{
+		float:left;
+		width:48%;
+		padding-left:2%;
 	}
 	
 	.wphFrame
@@ -381,7 +392,7 @@ hr{
     margin-top:1%;
     margin-left:1%;
     margin-right:1%;
-    width:50%;
+	width:50%;
     float:left;
   }
 

@@ -1,13 +1,13 @@
 @font-face{
   font-family: 'Lemon Milk';
-  src: url('./assets/fonts/LemonMilk.otf') format('opentype');
+  src: url('../assets/fonts/LemonMilk.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face{
   font-family: 'Halogen';
-  src: url('./assets/fonts/HalogenbyPixelSurplus-Regular.otf') format('opentype');
+  src: url('../assets/fonts/HalogenbyPixelSurplus-Regular.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
 }

@@ -13,6 +13,7 @@ $(".pageBox").scroll(function() {
 $(window).scroll(function(){ 
   var $el = $('.filter'); 
   var isPositionFixed = ($el.css('position') == 'fixed');
+	
   if ($(this).scrollTop() > 128 && !isPositionFixed){ 
     $el.css({'position': 'fixed', 'top': '0px'}); 
   }

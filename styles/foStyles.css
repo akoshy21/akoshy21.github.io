@@ -1,0 +1,88 @@
+@media all and (min-width: 960px) {
+	
+  .foPG{
+    background:#07000F;
+    text-align: left;
+    line-height:130%;
+    color:black;
+  }
+
+.foPG p{
+  color:white;
+  text-align:left;
+  padding-right:1.2em;
+  padding-left:1.2%;
+}
+
+.foH1 hr{
+  height:0.2em;
+  width:14em;
+  background:#FFEB39;
+  float:left;
+}
+	.spacer{
+		height:1em;
+	}
+	
+	.foSection{
+		width:57em;
+		margin:0 auto;
+	}
+	
+  .foH2{
+	  font-family: 'Halogen', arial;
+	  font-weight:800;
+      color:#FFEB39;
+      text-align:left;
+      margin:0;
+      padding-top:0.25em;
+      font-size:1.75em;
+  }
+
+  .foH1
+  {
+	font-family: 'Halogen', arial;
+    font-weight:800;
+      color:#FFEB39;
+      text-align:left;
+      margin:0;
+      padding-top:0.75em;
+      padding-right:2%!important;
+      font-size:1.75em;
+  }
+
+	.right
+	{
+		float:right;
+		width:49%;
+	}
+	
+	.left
+	{
+		float:left;
+		width:49%;
+		padding-left:0.75em;
+	}
+	
+	.foFrame
+	{
+		 background:#14A2D5;
+		width:97%;
+		margin:0;
+		margin-top:1.2em;
+	
+	}
+	
+  .foPG img{
+    margin-top:1%;
+    margin-left:1%;
+    margin-right:1%;
+	width:49%;
+    float:left;
+  }
+
+  .pg{
+    height:69vh!important;
+    overflow-y:auto;
+  }
+}

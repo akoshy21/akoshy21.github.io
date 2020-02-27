@@ -113,7 +113,7 @@ height:11em;
 	font-family: 'Lemon Milk', Helvetica, Arial, sans-serif;
 	-webkit-font-smoothing:antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	font-size: 1.7em;
+	font-size: 1.5em;
 	text-decoration: none;
 }
 
@@ -1078,7 +1078,7 @@ a:link hover{
 
   #navbar .pages
   {
-    margin-top: 0.5em;
+    margin-top: 0.75em;
     text-align: left;
   }
 

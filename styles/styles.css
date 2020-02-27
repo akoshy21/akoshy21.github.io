@@ -3,6 +3,7 @@
   src: url('../assets/fonts/LemonMilk.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
+  font-display: swap
 }
 
 @font-face{
@@ -10,6 +11,7 @@
   src: url('../assets/fonts/HalogenbyPixelSurplus-Regular.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
